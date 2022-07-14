@@ -1,0 +1,16 @@
+{
+  "name": "collect-twitch-chat",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "@elastic/elasticsearch": "^8.2.1",
+    "dotenv": "^16.0.1",
+    "tmi.js": "^1.8.5",
+    "winston": "^3.8.1",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

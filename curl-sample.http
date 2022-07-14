@@ -1,0 +1,14 @@
+curl -X POST 'https://id.twitch.tv/oauth2/token' \
+-H 'Content-Type: application/x-www-form-urlencoded' \
+-d 'client_id=p8v55cwviuz4dgq9nyd2vrbvaa3rh6&client_secret=kqs9o8ak0iwthlwur3oyxeqqwd711i&grant_type=client_credentials'
+
+https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=p8v55cwviuz4dgq9nyd2vrbvaa3rh6&redirect_uri=http://localhost:3000&scope=chat%3Aread+chat&3Aedit
+
+https://id.twitch.tv/oauth2/authorize?response_type=code&client_id=p8v55cwviuz4dgq9nyd2vrbvaa3rh6&redirect_uri=http://localhost:3000&scope=chat%3Aread+chat&3Aedit&state=c3ab8aa609ea11e793ae92361f002671
+
+curl -X POST 'https://id.twitch.tv/oauth2/token' \
+-H 'Content-Type: application/x-www-form-urlencoded' \
+-d 'client_id=p8v55cwviuz4dgq9nyd2vrbvaa3rh6&client_secret=kqs9o8ak0iwthlwur3oyxeqqwd711i&code=17038swieks1jh1hwcdr36hekyui&grant_type=authorization_code&redirect_uri=http://localhost:3000'
+
+
+https://id.twitch.tv/oauth2/authorize?response_type=token&client_id=p8v55cwviuz4dgq9nyd2vrbvaa3rh6&redirect_uri=http://localhost:3000&scope=chat%3Aread+chat%3Aedit
