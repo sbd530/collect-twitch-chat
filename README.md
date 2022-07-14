@@ -1,0 +1,2 @@
+- Collect Twitch Chat messages
+- Implement Chat search engine
